@@ -34,8 +34,8 @@ function chiz() {
             <td>${item.y}</td>
             <td>${item.m}</td>
             <td>
-                <button onclick="ozgartir(${index})" data-bs-toggle="modal" data-bs-target="#myModal">♻️</button>
-                <button onclick="ochirish(${index})">❌</button>
+                <button class="btn " onclick="ozgartir(${index})" data-bs-toggle="modal" data-bs-target="#myModal">🔂</button>
+                <button class="btn " onclick="ochirish(${index})">❌</button>
             </td>
         </tr>
 
